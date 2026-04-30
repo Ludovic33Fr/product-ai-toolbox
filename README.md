@@ -3,7 +3,7 @@
 > Starter pack of **12 skills + 6 agents** for [Claude Code](https://claude.com/claude-code), companion to the book *Le Product Manager Augmenté* by Ludovic Lefebvre.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Plugin version](https://img.shields.io/badge/plugin-v0.1.0-blue)](.claude-plugin/plugin.json)
+[![Plugin version](https://img.shields.io/badge/plugin-v0.1.1-blue)](.claude-plugin/plugin.json)
 [![Content: French](https://img.shields.io/badge/content-français-orange)](README.fr.md)
 
 > **Heads-up.** Skill and agent bodies, prompts and produced outputs are in **French**. The repository envelope (this README, contribution rules, frontmatter keys) is in English to maximize international discoverability. French speakers should start with [README.fr.md](README.fr.md).

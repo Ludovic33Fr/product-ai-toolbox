@@ -3,7 +3,7 @@
 > Starter pack de **12 skills + 6 agents** pour [Claude Code](https://claude.com/claude-code), compagnon du livre *Le Product Manager Augmenté* de Ludovic Lefebvre.
 
 [![Licence : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version plugin](https://img.shields.io/badge/plugin-v0.1.0-blue)](.claude-plugin/plugin.json)
+[![Version plugin](https://img.shields.io/badge/plugin-v0.1.1-blue)](.claude-plugin/plugin.json)
 
 Ce dépôt est la version vivante de l'**Annexe 3** du livre. Il contient les douze skills et les six agents décrits dans le livre, prêts à être installés et utilisés. Les contributions de la communauté l'enrichissent en continu.
 

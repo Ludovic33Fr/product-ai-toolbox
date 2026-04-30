@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] — 2026-05-01
+
+CI hardening release. No content change to skills or agents.
+
+### Fixed
+
+- Drop deprecated `--exclude-mail` flag in `lychee-action` step (lychee 0.24+
+  removed it; mailto URLs are excluded by default).
+- Relax `markdownlint` rules that fired on intentional content (MD025, MD031,
+  MD040, MD060). MD022 is kept and the offending blank-lines were fixed in
+  the six agent files.
+- Correct broken Contributor Covenant FR URL (`code_de_conduite` →
+  `code_of_conduct`) and wrap as autolink.
+- Fix list-spacing issues in `CONTRIBUTING.fr.md`, `docs/installation.md`,
+  and `agents/decision-journal-keeper.md`.
+
+### Notes
+
+- All four CI jobs (frontmatter validation, markdown lint, broken links,
+  gitleaks) now pass on `main`.
+- Lychee verified 86 links across the repo, 0 errors.
+
 ## [0.1.0] — 2026-04-30
 
 First release. Companion to the book *Le Product Manager Augmenté* by Ludovic Lefebvre.

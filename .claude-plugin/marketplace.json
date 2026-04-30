@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Single-plugin marketplace publishing the Augmented Product Manager starter pack.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "pm-augmente",
       "source": "./",
       "description": "12 skills + 6 agents for Product Managers, companion to the book Le Product Manager Augmenté.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Ludovic Lefebvre",
         "url": "https://github.com/Ludovic33Fr"
