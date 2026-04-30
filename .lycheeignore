@@ -1,0 +1,5 @@
+# Patterns to ignore for the broken-link checker.
+# Add one regex per line.
+
+# Book Amazon page (placeholder before publication)
+^https?://(www\.)?amazon\.[a-z.]+/.*Le-Product-Manager-Augmente

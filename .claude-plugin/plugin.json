@@ -1,0 +1,22 @@
+{
+  "name": "pm-augmente",
+  "version": "0.1.0",
+  "description": "Augmented Product Manager starter pack — 12 skills and 6 agents for Claude Code, companion to the book Le Product Manager Augmenté.",
+  "author": {
+    "name": "Ludovic Lefebvre",
+    "url": "https://github.com/Ludovic33Fr"
+  },
+  "homepage": "https://github.com/Ludovic33Fr/product-ai-toolbox",
+  "repository": "https://github.com/Ludovic33Fr/product-ai-toolbox",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "product-manager",
+    "pm",
+    "claude-code",
+    "skills",
+    "agents",
+    "starter-pack",
+    "augmented-pm"
+  ]
+}
