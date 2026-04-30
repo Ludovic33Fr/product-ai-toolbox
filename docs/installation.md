@@ -10,6 +10,7 @@ Trois manières d'utiliser le starter pack `pm-augmente`.
 ```
 
 Avantages :
+
 - mise à jour en une commande (`/plugin update pm-augmente`)
 - découverte automatique des skills et agents
 - isolation propre (pas de fichiers à déplacer manuellement)
@@ -24,6 +25,7 @@ cp -r agents/* ~/.claude/agents/
 ```
 
 Avantages :
+
 - contrôle fin de ce que tu installes (tu peux ne prendre que certains skills)
 - facilite le fork pour adapter à ton contexte
 

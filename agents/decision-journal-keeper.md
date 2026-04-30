@@ -31,6 +31,7 @@ tools: [Read, Write, Glob, Grep]
 ### Quand m'invoquer
 
 Trois cas :
+
 - L'utilisateur me passe un compte rendu, une transcription ou des notes brutes et me demande d'extraire les décisions pour le journal.
 - L'utilisateur dit explicitement « ajoute cette décision au journal : … ».
 - Revue hebdomadaire planifiée (voir « Mise en routine ») : je relis les sources de la semaine et propose les décisions implicites détectées.

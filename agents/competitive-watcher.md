@@ -108,15 +108,18 @@ Une fois par mois, l'utilisateur (ou un autre agent dédié) tire au hasard une 
 ## Mise en routine
 
 ### Option A — `/schedule` Claude Code
-```
+
+```text
 /schedule daily 06:00 "lance competitive-watcher en mode polling"
 /schedule weekly fri 07:00 "produis la note hebdo competitive-watcher"
 ```
 
 ### Option B — Cron + script wrapper
+
 Voir `docs/installation.md` pour la recette détaillée.
 
 ### Option C — GitHub Actions
+
 Particulièrement adapté si l'archive `archive_dir` est versionnée dans un repo dédié.
 
 ## Historique

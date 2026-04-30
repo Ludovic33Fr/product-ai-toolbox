@@ -94,22 +94,26 @@ Identique au format du skill `weak-signals-weekly` (4 blocs : thèmes émergents
 ## Mise en routine
 
 ### Option A — `/schedule` Claude Code
-```
+
+```text
 /schedule daily 09:00 "lance weak-signals-watcher pour la détection quotidienne"
 /schedule weekly mon 08:00 "produis la synthèse hebdo weak-signals-watcher"
 ```
 
 ### Option B — Cron + script wrapper
+
 ```bash
 # ~/scripts/signals-daily.sh
 claude --agent weak-signals-watcher --mode daily --no-interactive
 ```
+
 ```cron
 0 9 * * * ~/scripts/signals-daily.sh
 0 8 * * 1 ~/scripts/signals-weekly.sh
 ```
 
 ### Option C — GitHub Actions cron
+
 Pertinent si tu archives les signaux dans un repo dédié et veux un audit trail versionné.
 
 ## Historique

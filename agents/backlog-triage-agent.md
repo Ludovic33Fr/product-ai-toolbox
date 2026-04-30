@@ -100,14 +100,17 @@ Champs custom remplis dans le ticketing (équivalent en markdown si export) :
 ## Mise en routine
 
 ### Option A — Sur événement (webhook)
+
 Configurer un webhook côté ticketing qui appelle un endpoint local invoquant l'agent.
 
 ### Option B — Polling quotidien
-```
+
+```text
 /schedule daily 09:00 "lance backlog-triage-agent en mode batch"
 ```
 
 ### Option C — Manuel
+
 Invocation à la demande avant chaque refinement.
 
 ## Historique

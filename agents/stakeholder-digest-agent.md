@@ -105,14 +105,17 @@ tools: [Read, Write, Glob]
 ## Mise en routine
 
 ### Option A — `/schedule` Claude Code
-```
+
+```text
 /schedule weekly thu 18:00 "produis le digest hebdo stakeholder-digest-agent"
 ```
 
 ### Option B — Trigger sur événement
+
 Webhook qui invoque l'agent quand une alerte concurrentielle ≥4 est émise par `competitive-watcher`, ou quand une décision structurante est validée dans le journal.
 
 ### Option C — Cron + script wrapper
+
 Voir `docs/installation.md`.
 
 ## Historique

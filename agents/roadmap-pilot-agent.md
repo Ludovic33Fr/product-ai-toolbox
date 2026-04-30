@@ -130,15 +130,18 @@ Documenter dans `audits/roadmap-pilot-{YYYY-Q}.md`.
 ## Mise en routine
 
 ### Option A — `/schedule` Claude Code
-```
+
+```text
 /schedule daily 18:00 "lance roadmap-pilot-agent en mode calcul quotidien"
 /schedule weekly fri 16:00 "produis la note hebdo roadmap-pilot-agent"
 ```
 
 ### Option B — Cron
+
 Wrapper bash + crontab. Voir `docs/installation.md`.
 
 ### Option C — GitHub Actions
+
 Si la roadmap est versionnée dans un repo, un workflow cron peut déclencher l'agent et committer la note dans le repo.
 
 ## Historique

@@ -30,6 +30,7 @@ Le frontmatter porte `version`, `author`, `book`. À chaque modification signifi
 ### 3. Garde-fous
 
 Tout artefact comporte une section `Garde-fous` explicite :
+
 - Ce que l'artefact ne doit **jamais** faire (action sortante, écrasement, etc.)
 - Les cas d'usage où il **n'est pas** pertinent
 - Les limites de confiance attendues
@@ -73,7 +74,7 @@ Voir [docs/conventions.md](docs/conventions.md) — règles précises sur le fro
 
 ## Code de conduite
 
-Contributor Covenant 2.1 — https://www.contributor-covenant.org/fr/version/2/1/code_de_conduite/
+Contributor Covenant 2.1 — <https://www.contributor-covenant.org/fr/version/2/1/code_of_conduct/>
 
 ## Licence
 
